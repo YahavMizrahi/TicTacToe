@@ -42,9 +42,9 @@ function play_X_ro_O(){
         counterClick++;
     }
     turn=!turn;
-   
+    if(checkIfWinner(board,playerTurn)===false&&counterClick===9)setTimeout(()=> alert('Draw'),800);
+
     setTimeout(()=> alertWinner(board,this.innerHTML),250);
-    if(counterClick===9)setTimeout(()=> alert('Draw'),250);
 
     if(gameMode=== "VScomputer" && turn === false){
         var index;
@@ -57,6 +57,7 @@ function play_X_ro_O(){
         turn=true;
 
         setTimeout(()=> alertWinner(board,'O'),250);
+        
     }
 
     if(gameMode==='1VS1') document.querySelector('p').innerHTML=playerTurn+' turn';
@@ -81,6 +82,7 @@ function alertWinner(temp_board,index){
         removeListener_removexORo();
         resetButton.innerHTML='Play again';
     }
+
 }
 function checkIfWinner(temp_board,index ){
 
