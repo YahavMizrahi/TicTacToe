@@ -21,9 +21,9 @@ An explanation about the differences between the modes.
 ### Screenshots
 
 > Player vs. Player mode
-![player vs player] (https://github.com/YahavMizrahi/TicTacToe/blob/master/img/1VS1.gif)
+![player vs player](https://github.com/YahavMizrahi/TicTacToe/blob/master/img/1VS1.gif)
 
 > Player vs. Computer mode
-![player vs computer] (https://github.com/YahavMizrahi/TicTacToe/blob/master/img/VS%20The%20cp.gif)
+![player vs computer](https://github.com/YahavMizrahi/TicTacToe/blob/master/img/VS%20The%20cp.gif)
 
 
