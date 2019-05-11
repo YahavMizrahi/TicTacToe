@@ -26,5 +26,4 @@ An explanation about the differences between the modes.
 #### Player vs. Computer mode
 ![player vs computer](https://github.com/YahavMizrahi/TicTacToe/blob/master/img/VS%20The%20cp.gif)
 
-### Do you want to try it yourself ? 
-`<Demo>`  <http://htmlpreview.github.io/?https://github.com/YahavMizrahi/TicTacToe/blob/master/TicTacToe.html/>
+
